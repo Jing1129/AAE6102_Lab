@@ -50,4 +50,3 @@ The usage of the source code:
 
 1. ARINC Research Corporation. (2000). GPS Interface Control Document ICD-GPS-200 (IRN-200C-004): Navstar GPS Space Segment and Aviation User Interfaces.
 
-**Author E-mail: 21122495r@connect.polyu.hk**
