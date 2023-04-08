@@ -1,10 +1,10 @@
-##### Introduction
+# Introduction
 
 The primary purpose of this Lab experiment is to perform single-point positioning using satellite broadcast ephemeris data and receiver observations for a given epoch. The Least-Square Method has been used for estimating the receiver's coordinate and the receiver's clock offset.
 
 The receiver's initial position is X0 = -2694685.473, Y0 = -4293642.366, Z0 = 3857878.924 (WGS 84 XYZ in meters), and the initial clock offset of the receiver is zero.
 
-##### Instruction
+# Instruction
 
 The usage of the source code:
 
@@ -21,9 +21,9 @@ The usage of the source code:
 5. **XYZ2NEU.m**
 6. **main.m:** Using the Least-Square method to calculate the receiver's coordinate and clock offset.
 
-##### Results
+# Results
 
-###### The ECEF position and the clock offset of satellites.
+## The ECEF position and the clock offset of satellites.
 
 | svid |     X (m)      |     Y (m)      |     Z (m)      | Clock offset (s) |
 | :--: | :------------: | :------------: | :------------: | :--------------: |
@@ -36,7 +36,7 @@ The usage of the source code:
 |  22  | -13649531.2661 |  8229504.3157  | 21122957.8349  |    0.00022268    |
 |  26  |  6162910.1746  | -25286774.5207 | -3541191.2494  |    0.00028099    |
 
-###### The iteration of this LS problem.
+## The iteration of this LS problem.
 
 | Iterations | Position X,Y,Z changed (m)                                   | Receiver clock changed (s) | Updated position ECEF (m)                                    |
 | ---------- | ------------------------------------------------------------ | -------------------------- | ------------------------------------------------------------ |
@@ -46,7 +46,7 @@ The usage of the source code:
 
 
 
-##### Reference
+# Reference
 
 1. ARINC Research Corporation. (2000). GPS Interface Control Document ICD-GPS-200 (IRN-200C-004): Navstar GPS Space Segment and Aviation User Interfaces.
 
